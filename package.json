@@ -1,0 +1,19 @@
+{
+  "name": "cnp-javascript-tool",
+  "version": "1.0.0",
+  "description": "javascript develop tool ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guo764672608/cnp-javascript-tool.git"
+  },
+  "author": "guopengwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guo764672608/cnp-javascript-tool/issues"
+  },
+  "homepage": "https://github.com/guo764672608/cnp-javascript-tool#readme"
+}
