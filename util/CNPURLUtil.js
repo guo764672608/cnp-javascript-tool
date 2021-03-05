@@ -7,7 +7,7 @@ export default class CNPURLUtil {
     * @param {String} name 参数说明:如果有参数则值返回当前name的参数与值，否则则全部返回
     * @return {Object} 返回值说明 标准的Object key:value 类型
     */
-  static getUrlParameter = (name = '') => {
+  static getUrlParameter(name = '') {
     let urlparam = window.location.search === '' ? window.location.hash : window.location.search;
     if (!urlparam || urlparam.length === 0) {
       return {}
@@ -37,7 +37,7 @@ export default class CNPURLUtil {
     return param;
   }
 
- 
 
-  
+
+
 }
